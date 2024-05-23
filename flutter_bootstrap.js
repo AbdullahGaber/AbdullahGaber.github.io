@@ -9,8 +9,26 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"55eae6864b296dd9f43b2cc7577ec256e5c32a8d","builds":[{"compileTarget":"dart2js","renderer":"auto","mainJsPath":"main.dart.js"}]};
 
 
+// Manipulate the DOM to add a loading spinner will be rendered with this HTML:
+// <div class="loading">
+//   <div class="loader" />
+// </div>
+const loadingDiv = document.createElement('div');
+loadingDiv.className = "loading";
+document.body.appendChild(loadingDiv);
+const loaderDiv = document.createElement('div');
+loaderDiv.className = "loader";
+loadingDiv.appendChild(loaderDiv);
+
+// Customize the app initialization process
 _flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "885348787"
+  onEntrypointLoaded: async function(engineInitializer) {
+    const appRunner = await engineInitializer.initializeEngine();
+
+    // Remove the loading spinner when the app runner is ready
+    if (document.body.contains(loadingDiv)) {
+      document.body.removeChild(loadingDiv);
+    }
+    await appRunner.runApp();
   }
 });
