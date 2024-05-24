@@ -43,7 +43,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "95c4f5edb3390a063699a10a53bfa0c0
 "assets/assets/svgsec4e6857": "cc8d7c3874fc1669319df2124e67ec5e",
 "assets/FontManifest.json": "b3db1a64677293628bd8367032155c4a",
 "assets/fonts/MaterialIcons-Regular.otf": "0db35ae7a415370b89e807027510caf0",
-"assets/NOTICES": "01b2fb541ba31ed96f540cb4fa768efd",
+"assets/NOTICES": "6a1e5f7126b75ff934827fc824a5fefd",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "738255d00768497e86aa4ca510cce1e1",
