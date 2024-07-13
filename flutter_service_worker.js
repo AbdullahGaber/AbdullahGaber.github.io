@@ -47,10 +47,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "6647798b507f29b65f25b11b1260214c
 "assets/assets/svgs/web_dev.svg": "e458f25afed627f5d22bdb0ba3c6a213",
 "assets/assets/svgs/whatsapp_icon.svg": "c9dbf608e80ab3d4921863d66f903855",
 "assets/assets/svgs/yalla_ticket_icon.svg": "5e226fe03ca6d51fd36b3be94c9e755b",
-"assets/assets/svgs1b841cc3": "0d272e86c52924bec73525cbf6b3bd24",
-"assets/assets/svgsa0d650e3": "f588d5f2042f3fd8d3639f4a82acb7cc",
-"assets/assets/svgsc85f60b2": "4a354fffc02a5d89d690e39e1ec65bdf",
-"assets/assets/svgsec4e6857": "cc8d7c3874fc1669319df2124e67ec5e",
 "assets/FontManifest.json": "b3db1a64677293628bd8367032155c4a",
 "assets/fonts/MaterialIcons-Regular.otf": "0db35ae7a415370b89e807027510caf0",
 "assets/NOTICES": "6505416e98bfe21e8cd32f9bc02d4662",
@@ -75,7 +71,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "6647798b507f29b65f25b11b1260214c
 "icons/Icon-maskable-512.png": "e9229d36abc22e8ee87ab561e634b8b9",
 "index.html": "1b08c9b2afb53edc75a32fec144d145e",
 "/": "1b08c9b2afb53edc75a32fec144d145e",
-"main.dart.js": "41906e4af37ac320bd2dc907735faca0",
+"main.dart.js": "952ffd6adfbe7fea7f7a0ca58b486173",
 "manifest.json": "5f56109c5826ecdf99668db61750238d",
 "version.json": "9b818ca9511483c901bed1545384376c"};
 // The application shell files that are downloaded before a service worker can
